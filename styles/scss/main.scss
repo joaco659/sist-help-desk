@@ -1,13 +1,6 @@
 
 
 
-@import './primary-color-theme';
-// Second theme
-// @import './secondary-color-theme';
-@import './tipography';
-
-h1 {
-    @include fontSans($font-size-big);
-    background-color: $charcoal;
-    color: #fff;
+@mixin prueba {
+    background-color: #0af;
 }
